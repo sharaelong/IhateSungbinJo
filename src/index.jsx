@@ -7,14 +7,12 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 
 import Main from "./main.jsx";
 
-const AppRouter = () => (
-  <div>
-  <CssBaseline />
-    <Router>
-      <Route path="/" exact component={Main} />
-    </Router>
-    </div>
+const App = () => (
+    <>
+        <CssBaseline />
+        <Main />
+    </>
 );
 
 const root = document.getElementById("root");
-ReactDOM.render(<AppRouter />, root);
+ReactDOM.render(<App />, root);
