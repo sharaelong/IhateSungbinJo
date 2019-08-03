@@ -70,8 +70,8 @@ function onDragEnd(props) {
     }
 }
 
-function Test() {
     const classes = useStyles();
+const Test = () => {
 
     return (
         <Paper>
@@ -143,6 +143,6 @@ function Test() {
             </GridList>
         </Paper>
     );
-}
+};
 
 export default Test;
